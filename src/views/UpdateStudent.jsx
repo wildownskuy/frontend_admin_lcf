@@ -100,7 +100,7 @@ export default function UpdateStudent() {
                   Description
                 </label>
                 
-                <input
+                <textarea
                   type="text"
                   value={inputs.content}
                   name="content" onChange={ handleChange}
@@ -117,7 +117,7 @@ export default function UpdateStudent() {
                   Location
                 </label>
                 
-                <input
+                <textarea
                   type="text"
                   value={inputs.location}
                   name="location" onChange={ handleChange}

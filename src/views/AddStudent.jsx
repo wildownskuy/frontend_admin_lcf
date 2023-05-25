@@ -82,7 +82,7 @@ export default function AddProduct() {
                 >
                   Harga
                 </label>
-                <input
+                <textarea
                   type="text"
                   name="content"
                   id="content"
@@ -102,8 +102,9 @@ export default function AddProduct() {
                 >
                   Lokasi
                 </label>
-                <input
+                <textarea
                   type="text"
+                  
                   name="location"
                   id="location"
                   onChange={(event) =>
